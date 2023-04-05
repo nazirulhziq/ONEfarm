@@ -1,7 +1,7 @@
 <?php
 
-$con=mysqli_connect("localhost","root", "");
-$db= mysqli_select_db($con,'onefarm');
+$con=mysqli_connect("us-cdbr-east-06.cleardb.net","be1e7880320ee9", "63c35bd6");
+$db= mysqli_select_db($con,'heroku_8d9f86b3e1930ef');
 
 if(isset($_POST['updatedata']))
 {
