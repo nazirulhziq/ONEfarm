@@ -1,10 +1,10 @@
 <?php
 
 //main connection file for both admin & front end
-$servername = "localhost"; //server
-$username = "root"; //username
-$password = ""; //password
-$dbname = "onefarm";  //database
+$servername = "us-cdbr-east-06.cleardb.net"; //server
+$username = "be1e7880320ee9"; //username
+$password = "63c35bd6"; //password
+$dbname = "heroku_8d9f86b3e1930ef";  //database
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password, $dbname); // connecting 
